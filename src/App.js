@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { withAuthenticator } from 'aws-amplify-react'
 function App() {
   return (
     <div className="App">
@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         <p>
-          Edit <code>src/App.js</code>hello implify 
+          Edit <code>src/App.js</code> hello implify  2222
         </p>
         <a
           className="App-link"
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default  (App);
